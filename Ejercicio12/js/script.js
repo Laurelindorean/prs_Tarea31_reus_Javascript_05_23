@@ -54,7 +54,5 @@ alert(newCadena);
 //Apartado 5
 let html =
   "<p>Este es un <script>alert('mensaje que deberia desaparecer');</script>ejemplo.</p>";
-let cleanHtml = html.replace(
-  /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi,
-  "");
+//let cleanHtml = html.replace( /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "");
 console.log(cleanHtml);
