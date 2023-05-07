@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 14</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Ejercicio 14</h1>
+      <div class="calculator">
+        <div class="calculator_display">
+          <input type="text" id="valor_numero" value="0" readonly="true" />
+        </div>
+
+        <div class="calculator_keys">
+          <input type="Button" id="sumar" value="+" onclick="operar(1)" />
+          <input type="Button" id="restar" value="-" onclick="operar(2)" />
+          <input type="Button" id="multiplicar" value="x" onclick="operar(3)" />
+          <input type="Button" id="dividir" value="÷" onclick="operar(4)" />
+
+          <input type="Button" id="7" value="7" onclick="darNumero('7')" />
+          <input type="Button" id="8" value="8" onclick="darNumero('8')" />
+          <input type="Button" id="9" value="9" onclick="darNumero('9')" />
+          <input type="Button" id="mod" value="^" onclick="operar(5)" />
+
+          <input type="Button" id="4" value="4" onclick="darNumero('4')" />
+          <input type="Button" id="5" value="5" onclick="darNumero('5')" />
+          <input type="Button" id="6" value="6" onclick="darNumero('6')" />
+          <input type="Button" id="raiz" value="Raiz" onclick="operar(6)" />
+
+          <input type="Button" id="1" value="1" onclick="darNumero('1')" />
+          <input type="Button" id="2" value="2" onclick="darNumero('2')" />
+          <input type="Button" id="3" value="3" onclick="darNumero('3')" />
+          <input type="Button" id="0" value="0" onclick="darNumero('0')" />
+
+          <input type="Button" id="." value="." onclick="darComa()" />
+          <input type="Button" id="clear" value="AC" onclick="limpiar()" />
+          <input type="Button" id="igual" value="=" onclick="esIgual()" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
