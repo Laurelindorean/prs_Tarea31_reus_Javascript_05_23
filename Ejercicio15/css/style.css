@@ -1,0 +1,26 @@
+main #foto_principal #principal {
+  justify-content: center;
+  text-align: center;
+}
+
+main #foto_principal #footer {
+  text-align: center;
+  font-size: 40px;
+}
+
+main #contenedor-fotos {
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+main #contenedor-fotos #fotos {
+  width: 40%;
+}
+
+main #contenedor-fotos #fotos img {
+  height: 100px;
+}
+h1 {
+  text-align: center;
+}
